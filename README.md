@@ -1,16 +1,59 @@
 # clean_login
 
-A new Flutter project.
+  
 
-## Getting Started
+A simple login app built with Flutter using Clean Architecture principles.
 
-This project is a starting point for a Flutter application.
+Perfect for demonstrating separation of concerns, testability, and scalable project structure.
 
-A few resources to get you started if this is your first Flutter project:
+  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Login Page |
+
+|------------|
+
+| ![login](screenshots/login.png) |
+
+  
+
+## Architecture
+
+This project uses full Clean Architecture:
+
+  
+
+- `presentation`: UI + Cubit (state management)
+
+- `domain`: Entities + UseCases
+
+- `data`: Models + Remote Data Source
+
+- `core`: Error handling and network
+
+  
+
+## Technologies
+
+- Dio for HTTP
+
+- Flutter Bloc/Cubit for state
+
+- get_it for dependency injection
+
+- Mock API: https://fakestoreapi.com/auth/login
+
+  
+
+## Test Credentials
+
+```json
+
+{
+
+"username": "mor_2314",
+
+"password": "83r5^_"
+
+}
