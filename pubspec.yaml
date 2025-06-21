@@ -26,3 +26,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+  fonts:
+    - family: Jaro
+      fonts:
+        - asset: assets/fonts/Jaro-Regular.ttf
