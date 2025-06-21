@@ -42,7 +42,7 @@ This project uses full Clean Architecture:
 
 - get_it for dependency injection
 
-- Mock API: https://fakestoreapi.com/auth/login
+- Mock API: https://fakestoreapi.com
 
   
 
@@ -53,7 +53,6 @@ This project uses full Clean Architecture:
 {
 
 "username": "mor_2314",
-
 "password": "83r5^_"
 
 }
