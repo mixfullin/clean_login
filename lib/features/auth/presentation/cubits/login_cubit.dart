@@ -6,7 +6,7 @@ import 'login_state.dart';
 class LoginCubit extends Cubit<LoginState> {
   final LoginUsecase loginUsecase;
 
-  LoginCubit(this.loginUsecase) : super(LoginInitial());
+  LoginCubit({required this.loginUsecase}) : super(LoginInitial());
 
   Future<void> login({required String username, required String password}) async {
     emit(LoginLoading());
