@@ -1,4 +1,4 @@
-import 'package:clean_login/features/presentation/views/login_view.dart';
+import 'package:clean_login/features/auth/presentation/views/login_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
